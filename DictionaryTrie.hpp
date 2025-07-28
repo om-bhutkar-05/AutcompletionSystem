@@ -1,7 +1,3 @@
-/**
- *  Given starter code for UCSD CSE 100 programing assignment three.
- *  Authors: Jor-el Briones, Christine Alvarado
- */
 
 #ifndef DICTIONARY_TRIE_HPP
 #define DICTIONARY_TRIE_HPP
@@ -13,13 +9,6 @@ using namespace std;
 
 class MTNode;     // forward declaration
 class LinkedListNode;  // forward declaration
-
-/**
- *  The class for a dictionary ADT, implemented as a trie
- *  You may implement this class as either a mulit-way trie
- *  or a ternary search trie, but you must use one or the other.
- *
- */
 class DictionaryTrie
 {
     public:
